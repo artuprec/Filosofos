@@ -5,16 +5,7 @@ Created on Wed Mar 16 14:23:55 2022
 
 @author: mat
 """
-
-from multiprocessing import Process
-from multiprocessing import Condition, Lock
-from multiprocessing import Value
-from multiprocessing import current_process
-import time, random
-
-
-from multiprocessing import Condition, Lock,Value
-
+from multiprocessing import Condition, Lock, Value
 
 class Table(object):
     def __init__(self,NPHIL,manager):
